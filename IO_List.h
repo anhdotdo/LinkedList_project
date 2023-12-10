@@ -5,7 +5,7 @@
 #include<stdio.h>
 #include"List.h"
 
-void IO_showFullList(Node* head);
 void IO_showMessage(ListStatusType status);
+void IO_showFullList(Node* head, uint32_t size_of_element);
 
 #endif
